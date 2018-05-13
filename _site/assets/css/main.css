@@ -243,7 +243,7 @@ html { font-size: 14px; }
 @media screen and (min-width: 320px) { html { font-size: calc(14px + 4 * ((100vw - 320px) / 960)); } }
 @media screen and (min-width: 1280px) { html { font-size: 18px; } }
 
-body { background: #fff; color: #000; border-top: solid 0.25em #000; }
+body { background: #f0e8db; color: #000; border-top: solid 0.25em #000; }
 
 blockquote footer, q footer { font-size: 80%; font-style: normal; }
 blockquote footer::before, q footer::before { padding-right: 0.25rem; content: "\2014"; }
@@ -310,15 +310,15 @@ tr, td, th { vertical-align: middle; }
 /* ========================================================================== Site-wide ========================================================================== */
 .skip-links ul { margin: 0; padding: 0; list-style: none; }
 
-#menu-toggle { display: block; margin: 0; padding: 0.25em 0.75em 0.5em; color: #fff; background-color: #000; text-transform: uppercase; text-decoration: none; text-align: center; }
+#menu-toggle { display: block; margin: 0; padding: 0.25em 0.75em 0.5em; color: #f0e8db; background-color: #000; text-transform: uppercase; text-decoration: none; text-align: center; }
 @media (min-width: 48em) { #menu-toggle { display: none; } }
 
 .site-nav { display: none; margin-bottom: 1em; text-align: center; }
-.site-nav ul { display: block; margin: 0; padding: 0.25em 0.75em; list-style: none; color: #fff; background-color: #000; border-radius: 0 0 0.5rem 0.5rem; }
+.site-nav ul { display: block; margin: 0; padding: 0.25em 0.75em; list-style: none; color: #f0e8db; background-color: #000; border-radius: 0 0 0.5rem 0.5rem; }
 @media (min-width: 48em) { .site-nav ul { display: inline-block; } }
 .site-nav li { display: inline-block; font-size: 0.75em; }
-.site-nav a { display: block; padding: 0.5em 0.75em; color: #fff; text-transform: uppercase; text-decoration: none; border: 1px solid #000; border-radius: 0.25rem; }
-.site-nav a:hover { border-color: #fff; }
+.site-nav a { display: block; padding: 0.5em 0.75em; color: #f0e8db; text-transform: uppercase; text-decoration: none; border: 1px solid #000; border-radius: 0.25rem; }
+.site-nav a:hover { border-color: #f0e8db; }
 @media (min-width: 48em) { .site-nav { display: block; } }
 .site-nav.js-menu-is-open { display: block; -webkit-animation-name: initial; animation-name: initial; }
 
@@ -338,7 +338,7 @@ tr, td, th { vertical-align: middle; }
 
 .site-logo { display: inline-block; position: relative; z-index: 10; }
 
-.site-logo-img { width: 75px; height: 75px; border: 5px solid #fff; border-radius: 75px; }
+.site-logo-img { width: 75px; height: 75px; border: 5px solid #f0e8db; border-radius: 75px; }
 @media (min-width: 48em) { .site-logo-img { width: 112.5px; height: 112.5px; border-radius: 112.5px; } }
 @media (min-width: 64em) { .site-logo-img { width: 150px; height: 150px; border-radius: 150px; } }
 
@@ -395,7 +395,7 @@ tr, td, th { vertical-align: middle; }
 .toc-wrapper li { padding: 0.3em 0; font-family: "Source Sans Pro", sans-serif; }
 .toc-wrapper li a { display: inline-block; color: inherit; font-size: 0.75rem; font-weight: 600; text-decoration: none; border-bottom: 1px dotted transparent; }
 .toc-wrapper li a:hover, .toc-wrapper li a:focus { border-bottom: 1px dotted #cccccc; }
-.toc-wrapper li ol { padding-left: 0.5rem; list-style-type: lower-roman; background-color: #fff; }
+.toc-wrapper li ol { padding-left: 0.5rem; list-style-type: lower-roman; background-color: #f0e8db; }
 
 /* ========================================================================== Page ========================================================================== */
 .page-wrapper { margin: 0 auto; padding-left: 1em; padding-right: 1em; max-width: 1024px; }

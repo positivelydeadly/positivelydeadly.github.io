@@ -16,22 +16,22 @@
   
     
     <!-- Begin Jekyll SEO tag v2.4.0 -->
-<title>Recipes | Positively Deadly Podcast</title>
+<title>Layout: Author Override | Positively Deadly Podcast</title>
 <meta name="generator" content="Jekyll v3.7.3" />
-<meta property="og:title" content="Recipes" />
-<meta name="author" content="Positively Deadly Podcast" />
+<meta property="og:title" content="Layout: Author Override" />
+<meta name="author" content="Billy Rick" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="TBD" />
-<meta property="og:description" content="TBD" />
-<link rel="canonical" href="http://localhost:4000/recipes/" />
-<meta property="og:url" content="http://localhost:4000/recipes/" />
+<meta name="description" content="A post to test author overrides using a data file." />
+<meta property="og:description" content="A post to test author overrides using a data file." />
+<link rel="canonical" href="http://localhost:4000/post_formats/2012-03-14-layout-author-override/" />
+<meta property="og:url" content="http://localhost:4000/post_formats/2012-03-14-layout-author-override/" />
 <meta property="og:site_name" content="Positively Deadly Podcast" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@posdeadlypod" />
-<meta name="twitter:creator" content="@posdeadlypod" />
+<meta name="twitter:creator" content="@billyrick" />
 <meta name="google-site-verification" content="TBD" />
 <script type="application/ld+json">
-{"description":"TBD","url":"http://localhost:4000/recipes/","headline":"Recipes","@type":"WebPage","author":{"@type":"Person","name":"Positively Deadly Podcast"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/TBD.png"},"name":"Positively Deadly Podcast"},"@context":"http://schema.org"}</script>
+{"description":"A post to test author overrides using a data file.","url":"http://localhost:4000/post_formats/2012-03-14-layout-author-override/","headline":"Layout: Author Override","@type":"WebPage","author":{"@type":"Person","name":"Billy Rick"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/TBD.png"},"name":"Billy Rick"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -57,7 +57,7 @@
 </head>
 
 
-  <body class="layout--collection page--wide recipes">
+  <body class="layout--page  layout-author-override">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -99,111 +99,33 @@
       <header class="page-header">
         
         
-          <h1 align="center" id="page-title" class="page-title">Recipes</h1>
+          <h1 align="center" id="page-title" class="page-title">Layout: Author Override</h1>
         
       </header>
       <div class="page-content">
-        <p>Sample document listing for the collection <code class="highlighter-rouge">_recipes</code>.</p>
+        <p>Sites that may have content authored from various individuals can be accommodated by using <a href="https://jekyllrb.com/docs/datafiles/">data files</a>.</p>
 
+<p>To attribute an author to a post or page that is different from the site author specified in <code class="highlighter-rouge">_config.yml</code>:</p>
 
-<div class="entries-grid">
-  
+<p><strong>Step 1.</strong> Create <code class="highlighter-rouge">_data/authors.yml</code> and add authors using the following format. Anything variables found under <code class="highlighter-rouge">author</code> in <code class="highlighter-rouge">_config.yml</code> can be used (e.g. <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">avatar</code>, <code class="highlighter-rouge">uri</code>, social media profiles, etc.).</p>
 
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># /_data/authors.yml</span>
 
+<span class="na">Billy Rick</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Billy</span><span class="nv"> </span><span class="s">Rick"</span>
+  <span class="na">picture</span><span class="pi">:</span> <span class="s2">"</span><span class="s">/images/bio-photo-2.jpg"</span>
 
-<article class="entry h-entry">
-  <header class="entry-header">
-    <h3 class="entry-title p-name">
-      
-        <a href="/recipes/chocolate-chip-cookies/" rel="bookmark">Chocolate Chip Cookies
-</a>
-      
-    </h3>
-    
-      
-      
-      
-      <img class="entry-image u-photo" src="/images/chocolate-chip-cookies-400x200.jpg" alt="">
-    
-  </header>
-  
-    <div class="entry-excerpt p-summary">
-      
-        <p>A chocolate chip cookie is a drop cookie that originated in the United States and features chocolate chips as its distinguishing ingredient.</p>
+<span class="na">Cornelius Fiddlebone</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Cornelius</span><span class="nv"> </span><span class="s">Fiddlebone"</span>
+  <span class="na">picture</span><span class="pi">:</span> <span class="s2">"</span><span class="s">/images/bio-photo.jpg"</span>
+</code></pre></div></div>
 
+<p><strong>Step 2.</strong> Assign one of the authors in <code class="highlighter-rouge">authors.yml</code> to a post or page you wish to override the <code class="highlighter-rouge">site.author</code> with.</p>
 
-        <div class="more-link">
-          <a href="/recipes/chocolate-chip-cookies/">Read more&hellip;</a>
-        </div>
-      
-    </div>
-  
-  
-</article>
+<p>Example: To assign <code class="highlighter-rouge">Billy Rick</code> as an author for a post the following YAML Front Matter would be applied:</p>
 
-
-<article class="entry h-entry">
-  <header class="entry-header">
-    <h3 class="entry-title p-name">
-      
-        <a href="/recipes/oatmeal-cookies/" rel="bookmark">Oatmeal Cookies
-</a>
-      
-    </h3>
-    
-      
-      
-      
-      <img class="entry-image u-photo" src="/images/oatmeal-cookies-400x200.jpg" alt="">
-    
-  </header>
-  
-    <div class="entry-excerpt p-summary">
-      
-        <p>Oatmeal cookies are a proverbial favorite with both kids and adults. This crisp and chewy cookie is loaded with oats, dried fruit, and chopped nuts.</p>
-
-
-        <div class="more-link">
-          <a href="/recipes/oatmeal-cookies/">Read more&hellip;</a>
-        </div>
-      
-    </div>
-  
-  
-</article>
-
-
-<article class="entry h-entry">
-  <header class="entry-header">
-    <h3 class="entry-title p-name">
-      
-        <a href="/recipes/peanut-butter-cookies/" rel="bookmark">Peanut Butter Cookies
-</a>
-      
-    </h3>
-    
-      
-      
-      
-      <img class="entry-image u-photo" src="/images/peanut-butter-cookies-400x200.jpg" alt="">
-    
-  </header>
-  
-    <div class="entry-excerpt p-summary">
-      
-        <p>A peanut butter cookie is a type of cookie that is distinguished for having peanut butter as a principal ingredient. The cookie generally originated in the United States, its development dating back to the 1910s.</p>
-
-
-        <div class="more-link">
-          <a href="/recipes/peanut-butter-cookies/">Read more&hellip;</a>
-        </div>
-      
-    </div>
-  
-  
-</article>
-
-</div>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">author</span><span class="pi">:</span> <span class="s">Billy Rick</span>
+</code></pre></div></div>
 
 
         
