@@ -1,12 +1,10 @@
 # Site navigation links
 
-- title: Posts
-  url: /posts/
-- title: Categories
-  url: /categories/
-- title: Tags
-  url: /tags/
-- title: Recipes
-  url: /recipes/
-- title: Search
-  url: /search/
+- title: Home
+  url: /
+- title: Episodes
+  url: /episodes/
+- title: About
+  url: /about/
+- title: Contact
+  url: /contact/
