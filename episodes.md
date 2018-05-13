@@ -1,7 +1,7 @@
 ---
-title: Post Archive
+title: Episodes
 layout: posts
-permalink: /posts/
+permalink: /episodes/
 show_excerpts: true
 entries_layout: list
 ---
