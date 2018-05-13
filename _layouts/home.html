@@ -2,16 +2,12 @@
 layout: page
 ---
 
-{{ content }}
+<p>Welcome to <em>Positively Deadly Podcast</em>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan arcu nec dapibus varius. Cras posuere tincidunt lacus eget vulputate. Nullam rutrum nulla nec facilisis ultricies. </p>
 
-<div class="entries-{{ page.entries_layout | default: 'list' }}">
-  {%- if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate -%}
-    {%- comment -%}
-      Add paginator.posts loop if jekyll-paginate plugin is enabled
-      and page.paginate == true
-    {%- endcomment -%}
-    {% include posts-paginated.html %}
-  {%- else -%}
-    {% include posts-limit.html %}
-  {%- endif -%}
-</div>
+<p>Maecenas iaculis eros id ex aliquam vestibulum. Aliquam vestibulum, dolor at volutpat molestie, sapien enim porttitor dolor, vitae dictum sapien elit nec dolor. Pellentesque non aliquet est. llamcorper mattis fermentum. Ut velit eros, sodales eget lacus sit amet, tincidunt bibendum arcu.</p>
+
+<ul>
+  <li>Lorem ipsum dolor</li>
+  <li>Sit amet consectetur</li>
+  <li>Adipiscing elit</li>
+</ul>
