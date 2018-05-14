@@ -1,6 +1,6 @@
 ---
 title: Episodes
-layout: posts
+layout: episodes
 permalink: /episodes/
 show_excerpts: true
 entries_layout: list
