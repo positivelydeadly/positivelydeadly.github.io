@@ -566,6 +566,21 @@ tr, td, th { vertical-align: middle; }
 .btn--reddit { background-color: #ff4500; color: #fff; }
 .btn--reddit:hover { background-color: #cc3700; color: #fff; }
 .btn--reddit:visited { background-color: #ff4500; color: #fff; }
+.btn--stumbleupon { background-color: #e9492e; color: #fff; }
+.btn--stumbleupon:hover { background-color: #ba3a25; color: #fff; }
+.btn--stumbleupon:visited { background-color: #e9492e; color: #fff; }
+.btn--email { background-color: #ffffff; color: #000; }
+.btn--email:hover { background-color: #cccccc; color: #000; }
+.btn--email:visited { background-color: #ffffff; color: #000; }
+.btn--buffer { background-color: #323b43; color: #fff; }
+.btn--buffer:hover { background-color: #282f36; color: #fff; }
+.btn--buffer:visited { background-color: #323b43; color: #fff; }
+.btn--pinterest { background-color: #cb2027; color: #fff; }
+.btn--pinterest:hover { background-color: #a21a1f; color: #fff; }
+.btn--pinterest:visited { background-color: #cb2027; color: #fff; }
+.btn--tumblr { background-color: #32506d; color: #fff; }
+.btn--tumblr:hover { background-color: #284057; color: #fff; }
+.btn--tumblr:visited { background-color: #32506d; color: #fff; }
 .btn--block { display: block; width: 100%; }
 .btn--block + .btn--block { margin-top: 0.25em; }
 .btn--disabled { pointer-events: none; cursor: not-allowed; filter: alpha(opacity=65); box-shadow: none; opacity: 0.65; }
