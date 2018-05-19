@@ -19,6 +19,8 @@ en: &DEFAULT_EN
   results_found: "Result(s) found"
   share: "Share"
   tweet: "Tweet"
+  email: "Email"
+  print: "Print"
   next: "Next"
   previous: "Previous"
   newer: "Newer"
