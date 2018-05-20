@@ -1,11 +1,3 @@
-<div style="text-align:center">
-	{{ site.data.text[site.locale].email | default: 'Email' }}: <a href="mailto:{{ site.email }}"> {{ site.email }}</a>
-	<br />
-	Twitter: <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank">@{{ site.twitter.username }}</a>
-	<br /><br />
-	{{ site.data.text[site.locale].newsletter_cta | default: 'Get Notified via Email' }}: <a href="{{ site.newsletter_url }}" target="_blank">{{ site.newsletter_url }}</a>
-	<br />
-	{{ site.data.text[site.locale].itunes_rating_cta | default: 'Rate on iTunes' }}: <a href="{{ site.itunes_url }}" target="_blank">{{ site.itunes_url }}</a> 
-	<br />
-	{{ site.data.text[site.locale].pod_feed_cta | default: 'Add to Podcatcher' }}: <a href="{{ site.pod_feed }}" target="_blank">{{ site.pod_feed }}</a>
-</div>
+<strong>{{ site.data.text[site.locale].email | default: 'Email' }}</strong>: <a href="mailto:{{ site.email }}"> {{ site.email }}</a>
+<br />
+<strong>Twitter</strong>: <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank">@{{ site.twitter.username }}</a>
