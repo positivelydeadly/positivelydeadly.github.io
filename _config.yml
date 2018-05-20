@@ -21,7 +21,8 @@ locale: en-US
 title: "Positively Deadly Podcast"
 description: "TBD"
 baseurl: ""
-url: "https://positivelydeadly.github.io"
+url: "https://positivelydeadly.com"
+email: "positivelydeadlypodcast@gmail.com"
 logo: "/images/TBD.png"
 date_format: "%B %-d, %Y"
 read_time: false
@@ -106,17 +107,14 @@ defaults:
 
 # Site Author
 author:
-  name: Positively Deadly Podcast
-  picture: /images/TBD.png
-  email:
-  twitter: posdeadlypod
+  name: 
+  picture: 
+  email: 
+  twitter: 
   links:
-    - title: Twitter
-      url: https://twitter.com/posdeadlypod
+    - title: 
+      url: 
       icon: fab fa-twitter-square
-    - title: iTunes
-      url: TBD
-      icon: fab fa-itunes
 
 # Footer Links
 footer_links:
