@@ -9,7 +9,12 @@ sitemap: true
 
 ### Team
 
-{% include about-team.html %}
+{% for member in site.data.team %}
+  **{{ member.name }}** {{ member.bio }}<br />
+  {% if member.website %}<br />{{ site.data.text[site.locale].website | default: 'Website' }}: [{{ member.website }}]({{ member.website }}){% endif %} 
+  {% if member.twitter %}<br />Twitter: [@{{ member.twitter }}](http://twitter.com/{{ member.twitter }}){% endif %}
+{% endfor %}
+
 
 ### Credits
 

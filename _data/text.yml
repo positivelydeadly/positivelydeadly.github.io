@@ -18,6 +18,7 @@ en: &DEFAULT_EN
   pages_tagged: "Pages tagged"
   table_of_contents: "Table of Contents"
   results_found: "Result(s) found"
+  website: "Website"
   share: "Share"
   tweet: "Tweet"
   email: "Email"
