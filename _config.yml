@@ -23,6 +23,8 @@ description: "TBD"
 baseurl: ""
 url: "https://positivelydeadly.com"
 email: "positivelydeadlypodcast@gmail.com"
+pod_feed: "TBD"
+itunes_url: "TBD"
 logo: "/images/TBD.png"
 date_format: "%B %-d, %Y"
 read_time: false
@@ -121,6 +123,15 @@ footer_links:
   - title: Twitter
     url: https://twitter.com/posdeadlypod
     icon: fab fa-twitter-square
+  - title: Newsletter
+    url: TBD
+    icon: fas fa-envelope-square
   - title: iTunes
     url: TBD
     icon: fab fa-itunes
+  - title: Add to Podcatcher
+    url: TBD
+    icon: fas fa-plus-square
+  - title: Episode Feed
+    url: atom.xml
+    icon: fas fa-rss-square
