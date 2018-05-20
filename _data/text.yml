@@ -25,7 +25,6 @@ en: &DEFAULT_EN
   print: "Print"
   newsletter_cta: "Get Notified via Email"
   pod_feed_cta: "Add to Podcatcher"
-  itunes_rating_cta: "Rate on iTunes"
   fundraising_cta: "Support Us"
   next: "Next"
   previous: "Previous"
