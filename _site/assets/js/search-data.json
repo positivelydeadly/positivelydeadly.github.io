@@ -1,19 +1,4 @@
 var store = [{
-        "title": "S2E0: Another Test",
-        "excerpt":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper convallis neque, at ornare odio laoreet vel. Maecenas fermentum eu ipsum sit amet ultricies. Integer convallis nisl nec mauris ultricies, et ullamcorper justo malesuada. Sed interdum suscipit vulputate. Vestibulum at facilisis velit. Orci varius natoque penatibus et magnis dis parturient...","categories": ["Episodes"],
-        "tags": ["Season 2"],
-        "url": "http://localhost:4000/episodes/s2e1/"
-      },{
-        "title": "S1E0: Testing 1 2 3",
-        "excerpt":"Cloud bread chartreuse meh kinfolk raw denim. Celiac pinterest raw denim brooklyn taiyaki wayfarers. Roof party organic normcore, XOXO enamel pin vaporware vinyl scenester. Four loko biodiesel meditation knausgaard, edison bulb pok pok banjo gentrify tattooed XOXO. Leggings marfa venmo literally, gastropub stumptown typewriter photo booth aesthetic beard raclette bitters...","categories": ["Episodes"],
-        "tags": ["Season 1"],
-        "url": "http://localhost:4000/episodes/s1e2/"
-      },{
-        "title": "S1E0: Testing 1 2 3",
-        "excerpt":"Cloud bread chartreuse meh kinfolk raw denim. Celiac pinterest raw denim brooklyn taiyaki wayfarers. Roof party organic normcore, XOXO enamel pin vaporware vinyl scenester. Four loko biodiesel meditation knausgaard, edison bulb pok pok banjo gentrify tattooed XOXO. Leggings marfa venmo literally, gastropub stumptown typewriter photo booth aesthetic beard raclette bitters...","categories": ["Episodes"],
-        "tags": ["Season 1"],
-        "url": "http://localhost:4000/episodes/s1e1/"
-      },{
         "title": "S0E0: Website Setup",
         "excerpt":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper convallis neque, at ornare odio laoreet vel. Maecenas fermentum eu ipsum sit amet ultricies. Integer convallis nisl nec mauris ultricies, et ullamcorper justo malesuada. Sed interdum suscipit vulputate. Vestibulum at facilisis velit. Orci varius natoque penatibus et magnis dis parturient...","categories": ["Episodes"],
         "tags": ["Season 0"],
