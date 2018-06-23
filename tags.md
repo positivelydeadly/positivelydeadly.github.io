@@ -1,7 +1,7 @@
 ---
-title: Tag Archive
+title: Series Archive
 layout: tags
-permalink: /tags/
+permalink: /series/
 show_excerpts: true
 entries_layout: list
 ---
