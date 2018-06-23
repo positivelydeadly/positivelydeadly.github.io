@@ -25,10 +25,9 @@ url: "https://positivelydeadly.com"
 email: "positivelydeadlypodcast@gmail.com"
 pod_feed: "TBD"
 itunes_url: "TBD"
-fundraising_url: "TBD"
 newsletter_url: "TBD"
 fundraising_url: "https://ko-fi.com/positivelydeadlypodcast"
-logo: "/images/TBD.png"
+logo: "/images/logo.jpg"
 date_format: "%B %-d, %Y"
 read_time: false
 words_per_minute: # 200
