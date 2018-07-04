@@ -2,11 +2,11 @@
 
 - title: Home
   url: /
-- title: About
-  url: /about/
 - title: Episodes
   url: /episodes/
 - title: Resources
   url: /resources/
+- title: Credits
+  url: /credits/
 - title: Contact
   url: /contact/
