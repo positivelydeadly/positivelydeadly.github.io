@@ -1,0 +1,57 @@
+---
+title: Resources
+layout: page
+permalink: /resources/
+sitemap: true
+---
+
+<div style="text-align:center">
+
+<h2>Projects</h2>
+
+<p>
+{% for resource in site.data.resources %}
+  {% if resource.type == "project"  %}
+    {% if resource.link %}
+	  <a href="{{ resource.link }}" target="_blank">{{ resource.name }}</a>
+	{% else %}
+	  {{ resource.name }}
+    {% endif %}
+	<br />
+  {% endif  %}
+{% endfor %}
+</p>
+
+<h2>Organizations</h2>
+
+<p>
+{% for resource in site.data.resources %}
+  {% if resource.type == "organization"  %}
+    {% if resource.link %}
+	  <a href="{{ resource.link }}" target="_blank">{{ resource.name }}</a>
+	{% else %}
+	  {{ resource.name }}
+    {% endif %}
+	<br />
+  {% endif  %}
+{% endfor %}
+</p>
+
+<h2>People</h2>
+
+<p>
+{% for resource in site.data.resources %}
+  {% if resource.type == "people"  %}
+   	  {% if resource.link %}
+	    <a href="{{ resource.link }}" target="_blank">{{ resource.name }}</a>
+	  {% else %}
+        {{ resource.name }}
+      {% endif %}
+       <br />
+  {% endif  %}
+{% endfor %}
+</p>
+
+{% include social-share.html %}
+
+</div>
