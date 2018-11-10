@@ -19,6 +19,6 @@ sitemap: true
 * *Music* (Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) or freer)
 	* Theme: "U Make Me Feel" by **MK2** via [YouTube Audio Library](https://www.youtube.com/audiolibrary/music)
 	* Additional: **Chris Zabriskie** via [Free Music Archive](http://freemusicarchive.org/music/chris_zabriskie/), **Kevin MacLeod** via [Incompetech](https://incompetech.com/)
-* *Audio Editing*: **Audio Editing Solutions** [audioeditingsolutions.com](http://audioeditingsolutions.com/)
+* *Audio Editing*: TBD
 * *Graphics*: **Rosarian Cook** [rosieinc.studio](https://www.rosieinc.studio/)
 * *Website Theme*: **Michael Rose** [mademistakes.com](https://mademistakes.com/work/so-simple-jekyll-theme/)
